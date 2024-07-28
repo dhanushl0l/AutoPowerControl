@@ -14,11 +14,12 @@ This script automatically powers off and powers on a Windows PC based on the cha
    sudo apt-get install upower sshpass wakeonlan
    
 2. **Clone the Repository**:
+   ```sh
    git clone https://github.com/dhanushl0l/AutoPowerControl.git
    ```sh
    cd auto_power_control
 
-3. **Configure Script**:
+4. **Configure Script**:
    Edit the autopowercontrol.sh script and replace the placeholders with your actual information:
    
    YOUR_WINDOWS_PC_IP
@@ -29,11 +30,11 @@ This script automatically powers off and powers on a Windows PC based on the cha
    ```sh
    sudo nano AutoPowerControl.sh
 
-4. **Make Script Executable**:
+5. **Make Script Executable**:
    ```sh
    chmod +x auto_power_control.sh
 
-5. **Run the Script & test the working properly**:
+6. **Run the Script & test the working properly**:
    ```sh
    ./AutoPowerControl.sh
 
