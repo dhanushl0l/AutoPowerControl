@@ -16,7 +16,7 @@ This script automatically powers off and powers on a Windows PC based on the cha
 2. **Clone the Repository**:
    ```sh
    git clone https://github.com/dhanushl0l/AutoPowerControl.git
-   ```sh
+
    cd auto_power_control
 
 4. **Configure Script**:
